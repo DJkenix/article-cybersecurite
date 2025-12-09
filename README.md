@@ -1,7 +1,10 @@
-﻿# Projet : Article sur la cybersécurité
+# Projet : Article sur la cybersécurité
 
 Ce dépôt contient notre travail de rédaction autour d’un article portant sur la cybersécurité.  
-L’objectif du projet est de produire un article structuré en quatre parties tout en appliquant une gestion correcte du versioning avec Git et GitHub, comme demandé dans le cadre du cours.
+L’objectif du projet est de produire un article structuré en plusieurs parties tout en appliquant une gestion correcte du versioning avec Git et GitHub, comme demandé dans le cadre du cours.
+
+L’article traite principalement du **phishing**, l’une des attaques les plus répandues, mais nous abordons également les **ransomwares**, un type d'attaque de plus en plus fréquent dans les entreprises.  
+Ces deux sujets permettent d’illustrer des menaces réelles et actuelles rencontrées en cybersécurité.
 
 Nous avons utilisé des branches séparées pour chaque section de l’article et mis en place un tableau Kanban afin de suivre clairement l’avancement des tâches.
 
@@ -10,8 +13,8 @@ Nous avons utilisé des branches séparées pour chaque section de l’article e
 
 L’article est divisé en quatre sections :
 - Introduction  
-- Partie 1  
-- Partie 2  
+- Partie 1 : fonctionnement du phishing  
+- Partie 2 : conséquences, protections et parallèle avec les ransomwares  
 - Conclusion  
 
 Chaque section possède sa propre branche Git :
@@ -23,13 +26,12 @@ Chaque section possède sa propre branche Git :
 La branche `main` contiendra la version finale après les différentes fusions.
 
 
-
 ## Suivi du projet (Kanban)
 
 Un tableau Kanban a été créé dans GitHub Projects pour organiser les tâches.  
 Les éléments présents sont :
 
-- Recherche des sources  
+- Recherche des sources (phishing + ransomware)  
 - Écriture de l’introduction  
 - Écriture de la partie 1  
 - Écriture de la partie 2  
@@ -43,14 +45,11 @@ Ces tâches sont réparties entre “À faire”, “En cours” et “Fini” s
 ## Contenu du dépôt
 
 - `intro.md` : introduction  
-- `partie1.md` : première partie  
-- `partie2.md` : deuxième partie  
+- `partie1.md` : première partie (phishing)  
+- `partie2.md` : deuxième partie (conséquences, protections, lien avec ransomware)  
 - `conclusion.md` : conclusion  
-- `README.md` : documentation du projet
-
-## Résultat final
-La branche main contient :
-intro.md, partie1.md, partie2.md, conclusion.md, article-final.md, README.md 
+- `article-final.md` : version finale regroupant l’article complet  
+- `README.md` : documentation du projet  
 
 
 ## Membres du groupe
@@ -63,5 +62,5 @@ intro.md, partie1.md, partie2.md, conclusion.md, article-final.md, README.md
 ## Objectif pédagogique
 
 Le but principal de ce projet est de démontrer une utilisation propre et organisée de Git :  
-branches dédiées, commits explicites, travail collaboratif et gestion du projet avec un Kanban GitHub.
-
+branches dédiées, commits explicites, travail collaboratif et gestion du projet avec un Kanban GitHub.  
+Le contenu de l’article permet également de montrer notre compréhension de menaces actuelles en cybersécurité, notamment le phishing et les ransomwares.
